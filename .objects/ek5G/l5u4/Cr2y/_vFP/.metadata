@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SELECT apt",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "_vFPV1BAJUSjgZkSGUHVJg",
+  "Reference": "VX687R24ykCpBXGiXrLG9Q/_vFPV1BAJUSjgZkSGUHVJg",
+  "ParentRef": "VX687R24ykCpBXGiXrLG9Q/Cr2yTD8s2UyeXFv5rz01Xw",
+  "Created": "2024-06-24T00:42:21.0504516Z",
+  "Updated": "2024-06-24T00:42:21.0504516Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

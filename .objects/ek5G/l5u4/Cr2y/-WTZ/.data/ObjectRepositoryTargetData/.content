@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GQoU-xXGtEmgqTt8Oqy6tA" Reference="VX687R24ykCpBXGiXrLG9Q/-WTZ-euMpU6mAmHzsp2o7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.realtyprice.kr/notice/town/searchPastYear.htm" CVScreenId="df8323b6-a763-4c81-b833-7e3998de4538" CvTextArea="902, 754, 113, 17" CvType="Text" DesignTimeRectangle="903, 752, 270, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='apt' tag='SELECT' /&gt;&lt;webctrl aaname='(640-7) 봉명시티빌' tag='OPTION' /&gt;" FuzzySelectorArgument="&lt;webctrl id='apt' tag='SELECT' /&gt;&lt;webctrl aaname='(640-7) 봉명시티빌' tag='OPTION' type='' class='' check:innerText='(640-7) 봉명시티빌' /&gt;" Guid="6dabcf54-4980-4845-a6d3-dfe27810d4d9" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='NOTICE' title='부동산공시가격 알리미' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec94c17632d68dc01f7a936047924722.png" xmlns="">0u3G8YeDi7kiF1-gvl-VWpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

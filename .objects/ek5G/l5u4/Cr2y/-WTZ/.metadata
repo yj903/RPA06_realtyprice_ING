@@ -1,0 +1,14 @@
+﻿{
+  "Name": "(640-7) 봉명시티빌",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "-WTZ-euMpU6mAmHzsp2o7Q",
+  "Reference": "VX687R24ykCpBXGiXrLG9Q/-WTZ-euMpU6mAmHzsp2o7Q",
+  "ParentRef": "VX687R24ykCpBXGiXrLG9Q/Cr2yTD8s2UyeXFv5rz01Xw",
+  "Created": "2024-06-24T00:40:21.4914243Z",
+  "Updated": "2024-06-24T00:40:21.4914243Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Mj3NWsqaCEikSNwYJQC3ag" Reference="VX687R24ykCpBXGiXrLG9Q/_vFPV1BAJUSjgZkSGUHVJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.realtyprice.kr/notice/town/searchPastYear.htm" DesignTimeRectangle="902, 742, 289, 155" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='apt' tag='SELECT' /&gt;" FuzzySelectorArgument="[&quot;&lt;webctrl id='apt' tag='SELECT' type='' class='apt' aaname='*&quot;+CurrentRow(&quot;소분류&quot;).ToString.Trim+&quot;*' /&gt;&quot;]" Guid="2c439399-6bc9-421d-bcb0-6ce5c57e40db" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='NOTICE' title='부동산공시가격 알리미' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="58d98c97e6d28a37097c9e4de85df7e7.png" xmlns="">0wOx5uyAgyEu77j2QHT1rEw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
