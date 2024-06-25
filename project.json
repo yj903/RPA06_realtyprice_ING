@@ -4,11 +4,12 @@
   "description": "제공된 엑셀파일에 공시가격등 조회후 입력\r\n",
   "main": "Main.xaml",
   "dependencies": {
+    "ICT_GetChosung": "[1.0.1]",
     "UiPath.Excel.Activities": "[2.23.3-preview]",
     "UiPath.Mail.Activities": "[1.23.1]",
-    "UiPath.System.Activities": "[24.5.0-preview]",
+    "UiPath.System.Activities": "[24.10.0]",
     "UiPath.Testing.Activities": "[24.10.0-preview]",
-    "UiPath.UIAutomation.Activities": "[24.10.0-preview]"
+    "UiPath.UIAutomation.Activities": "[24.10.0]"
   },
   "webServices": [],
   "entitiesStores": [],

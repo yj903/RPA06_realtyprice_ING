@@ -10,7 +10,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>867,1905</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1112,1715</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_00_Definition_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -111,14 +111,14 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="out_Fname&#xA;&quot;부동산공시_&quot;&amp;Today.ToString(&quot;yyyyMMdd&quot;)&amp;&quot;_양영주.xlsx&quot;&#xA;&#xA;f_Date&#xA;Today.Tostring(&quot;yyMMdd&quot;)&#xA;&#xA;발신자&#xA;yangyj7042@gmail.com&#xA;수신자&#xA;rpa.sj.jeong@gmail.com&#xA;&#xA;strTitle&#xA;&quot;&lt;&lt;부동산공시지가안내&gt;&gt; 24년 최근 공시 안내_{0}_{1}&quot;&#xA;" DisplayName="_00_Definition" sap:VirtualizedContainerService.HintSize="735,1840" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="out_Fname&#xA;&quot;부동산공시_&quot;&amp;Today.ToString(&quot;yyyyMMdd&quot;)&amp;&quot;_양영주.xlsx&quot;&#xA;&#xA;f_Date&#xA;Today.Tostring(&quot;yyMMdd&quot;)&#xA;&#xA;발신자&#xA;yangyj7042@gmail.com&#xA;수신자&#xA;rpa.sj.jeong@gmail.com&#xA;&#xA;strTitle&#xA;&quot;&lt;&lt;부동산공시지가안내&gt;&gt; 24년 최근 공시 안내_{0}_{1}&quot;&#xA;" DisplayName="_00_Definition" sap:VirtualizedContainerService.HintSize="637,1650" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="673,57" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;==== 00 Defination start ====&quot;]">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="575,57" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;==== 00 Defination start ====&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -126,7 +126,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="673,303" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="575,303" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -180,19 +180,19 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="673,1122" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="부동산공시가격_Temp.xlsx">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="575,932" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="부동산공시가격_Temp.xlsx">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="639,980" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="541,790" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:CopyFile ContinueOnError="{x:Null}" Destination="[out_fName]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="577,186" sap2010:WorkflowViewState.IdRef="CopyFile_2" Overwrite="True" Path="부동산공시가격_Temp.xlsx">
+            <ui:CopyFile ContinueOnError="{x:Null}" Destination="[out_fName]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="479,186" sap2010:WorkflowViewState.IdRef="CopyFile_2" Overwrite="True" Path="부동산공시가격_Temp.xlsx">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -200,9 +200,9 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CopyFile>
-            <ui:ExcelCopySheet DestinationFilePath="[out_fName]" DestinationSheetName="Result" DisplayName="Copy Sheet" sap:VirtualizedContainerService.HintSize="577,112" sap2010:WorkflowViewState.IdRef="ExcelCopySheet_1" SheetName="회원목록" />
-            <ui:ReadRange AddHeaders="True" DataTable="[out_dt_memList]" DisplayName="out_dt_memList| Read Range Workbook" sap:VirtualizedContainerService.HintSize="577,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="A1:M11" SheetName="Result" WorkbookPath="[out_fName]" />
-            <Assign sap:VirtualizedContainerService.HintSize="577,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <ui:ExcelCopySheet DestinationFilePath="[out_fName]" DestinationSheetName="Result" DisplayName="Copy Sheet" sap:VirtualizedContainerService.HintSize="479,112" sap2010:WorkflowViewState.IdRef="ExcelCopySheet_1" SheetName="회원목록" />
+            <ui:ReadRange AddHeaders="True" DataTable="[out_dt_memList]" DisplayName="out_dt_memList| Read Range Workbook" sap:VirtualizedContainerService.HintSize="479,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="A1:M11" SheetName="Result" WorkbookPath="[out_fName]" />
+            <Assign sap:VirtualizedContainerService.HintSize="479,114" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="sd:DataTable">[out_dt_memList]</OutArgument>
               </Assign.To>
@@ -210,50 +210,39 @@
                 <InArgument x:TypeArguments="sd:DataTable">[out_dt_memList.Clone]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="577,360" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="541,258" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:MultipleAssign DisplayName="(\) 표시 관련 column 변경| Multiple Assign" sap:VirtualizedContainerService.HintSize="479,170" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
-                    <ui:MultipleAssign.AssignOperations>
-                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">[out_dt_memList.Columns("기준가격(\)").ColumnName]</OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">기준가격(원)</InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">[out_dt_memList.Columns("공시기준일 가격(\)").ColumnName]</OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">공시일자 가격(원)</InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                      </scg:List>
-                    </ui:MultipleAssign.AssignOperations>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:MultipleAssign>
-                </Sequence>
-              </ui:CommentOut.Body>
-            </ui:CommentOut>
+            <ui:MultipleAssign DisplayName="(\) 표시 관련 column 변경| Multiple Assign" sap:VirtualizedContainerService.HintSize="479,170" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[out_dt_memList.Columns("기준가격(\)").ColumnName]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">기준가격(원)</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[out_dt_memList.Columns("공시기준일 가격(\)").ColumnName]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">공시일자 가격(원)</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MultipleAssign>
           </Sequence>
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
     </ui:ExcelApplicationScope>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="673,48" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;==== 00 Defination end ====&quot;]">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="575,48" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;==== 00 Defination end ====&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
