@@ -9,7 +9,3 @@
 
 "<webctrl id='apt' tag='SELECT' type='' class='apt' aaname='*" + CurrentRow("단지").ToString+CurrentRow("동").ToString + "*'  />"
 "<webctrl id='apt' tag='SELECT' /><webctrl tag='OPTION' type='' class='' aaname='*" + CurrentRow("단지").ToString+CurrentRow("동").ToString + "*' />"
-
-
-'"+strApt+"'
-
