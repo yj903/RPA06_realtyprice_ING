@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="788,764" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1064,812" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -85,7 +85,7 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="부동산공시가격추출| Main Sequence" sap:VirtualizedContainerService.HintSize="416,699.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="부동산공시가격추출| Main Sequence" sap:VirtualizedContainerService.HintSize="416,514" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="fName" />
       <Variable x:TypeArguments="x:String" Name="sendTo" />
@@ -101,7 +101,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="False" DisplayName="00_Definition - Invoke Workflow File (JOBS\00_Definition.xaml)" sap:VirtualizedContainerService.HintSize="353.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="JOBS\00_Definition.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="False" DisplayName="00_Definition - Invoke Workflow File (JOBS\00_Definition.xaml)" sap:VirtualizedContainerService.HintSize="354,145" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="JOBS\00_Definition.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <OutArgument x:TypeArguments="x:String" x:Key="out_sendTo">[sendTo]</OutArgument>
         <OutArgument x:TypeArguments="x:String" x:Key="out_fName">[fName]</OutArgument>
@@ -111,7 +111,7 @@
         <OutArgument x:TypeArguments="x:String" x:Key="out_strDate">[strDate]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="02_Dt_Creation_search - Invoke Workflow File (JOBS\02_Dt_Creation_search.xaml)" sap:VirtualizedContainerService.HintSize="353.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="JOBS\02_Dt_Creation_search.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="02_Dt_Creation_search - Invoke Workflow File (JOBS\02_Dt_Creation_search.xaml)" sap:VirtualizedContainerService.HintSize="354,145" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="JOBS\02_Dt_Creation_search.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="x:String" x:Key="io_fName">[fName]</InOutArgument>
         <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_dt_memList">[dt_memList]</InOutArgument>
@@ -119,13 +119,26 @@
         <InArgument x:TypeArguments="x:String" x:Key="in_strInitialword">[strInitialword]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="01_Result_SendMail - Invoke Workflow File (JOBS\01_Result_SendMail.xaml)" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="JOBS\01_Result_SendMail.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="01_Result_SendMail - Invoke Workflow File (JOBS\01_Result_SendMail.xaml)" sap:VirtualizedContainerService.HintSize="354,136" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="JOBS\01_Result_SendMail.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_strTitle">[strTitle]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_fName">[fName]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_sendTo">[sendTo]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_reciveOn">[reciveOn]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_strDate">[strDate]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_strTitle">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="strTitle" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_fName">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="fName" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_sendTo">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="sendTo" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_reciveOn">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="reciveOn" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_strDate">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="strDate" />
+        </InArgument>
+        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dt_memList_01">
+          <VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dt_memList" />
+        </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
   </Sequence>
