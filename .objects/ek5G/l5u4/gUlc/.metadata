@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 부동산공시가격 알리미",
+  "Type": "Screen",
+  "Id": "gUlcg1VoXU-g3yc52_L2rA",
+  "Reference": "VX687R24ykCpBXGiXrLG9Q/gUlcg1VoXU-g3yc52_L2rA",
+  "ParentRef": "VX687R24ykCpBXGiXrLG9Q/l5u4D3k8IESDQ8w-nZ7SrA",
+  "Created": "2024-06-26T17:36:55.0205073Z",
+  "Updated": "2024-06-26T17:36:55.0205073Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
